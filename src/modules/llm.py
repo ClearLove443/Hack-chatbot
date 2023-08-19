@@ -5,7 +5,7 @@ import requests
 from langchain.callbacks.manager import CallbackManagerForLLMRun
 from langchain.llms.base import LLM
 
-url = "http://127.0.0.1:13000/chat"
+url = "https://openai.proxy.onlyyounotothers.top/chat"
 headers = {"Content-Type": "application/json"}
 
 
